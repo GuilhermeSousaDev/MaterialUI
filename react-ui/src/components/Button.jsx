@@ -34,7 +34,7 @@ export default function ButtonComponent() {
                 <LoadingButton loading variant="outlined">
                     Submit
                 </LoadingButton>
-                <LoadingButton 
+                <LoadingButton
                     onClick={_ => setLoading(true)}
                     variant="contained"
                     loading={loading}
@@ -44,6 +44,7 @@ export default function ButtonComponent() {
                     Save
                 </LoadingButton>
             </Stack>
+            <hr />
         </>
     )
 }

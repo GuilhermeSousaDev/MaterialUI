@@ -16,7 +16,7 @@ export default function AutocompleteComponent() {
                 options={options}
                 getOptionDisabled={option => option.id === 2}
                 groupBy={option => option.firstLetter}
-                sx={{ width: 300, marginTop: 10 }}
+                sx={{ width: 300, marginTop: 5 }}
                 renderInput={(params) => <TextField {...params} label="Movie" />}
             />
             <hr />
