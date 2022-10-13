@@ -10,6 +10,7 @@ export default function ButtonGroupComponent() {
         <Button>Two</Button>
         <Button>Three</Button>
       </ButtonGroup>
+      <hr />
     </>
   )
 }
