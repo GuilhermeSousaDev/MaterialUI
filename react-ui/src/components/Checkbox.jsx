@@ -25,6 +25,7 @@ export default function CheckboxComponent() {
           label={checked}
         />
       </FormGroup>
+      <hr />
     </>
   )
 }
