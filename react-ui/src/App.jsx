@@ -4,6 +4,7 @@ import ButtonComponent from './components/Button';
 import ButtonGroupComponent from './components/ButtonGroup';
 import CheckboxComponent from './components/Checkbox';
 import FloatingButtonComponent from './components/FloatingButton';
+import RadioButtonComponent from './components/RadioButton';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <ButtonGroupComponent />
       <CheckboxComponent />
       <FloatingButtonComponent />
+      <RadioButtonComponent />
     </Stack>
   )
 }

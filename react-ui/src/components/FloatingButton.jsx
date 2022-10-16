@@ -14,6 +14,7 @@ export default function FloatingButton() {
           Navigate
         </Fab>
       </Stack>
+      <hr />
     </>
   )
 }

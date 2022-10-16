@@ -8,7 +8,7 @@ export default function CheckboxComponent() {
   return (
     <>
       <h4>Checkbox</h4>
-      <Stack direction="align" spacing={2}>
+      <Stack direction="row" spacing={2}>
         <Checkbox />
         <Checkbox defaultChecked />
         <Checkbox disabled />
