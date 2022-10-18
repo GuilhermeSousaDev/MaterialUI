@@ -6,6 +6,7 @@ export default function RatingComponent() {
 
   return (
     <>
+      <h4>Rating Component</h4>
       <Typography component="legend">Controlled</Typography>
       <Rating
         value={value}
@@ -22,6 +23,8 @@ export default function RatingComponent() {
 
       <Typography component="legend">Floating Rating</Typography>
       <Rating defaultValue={2.5} precision={0.5} />
+
+      <hr />
     </>
   )
 }
