@@ -14,8 +14,8 @@ export default function SelectComponent() {
           <MenuItem value={20}>Twenty</MenuItem>
           <MenuItem value={30}>Thirty</MenuItem>
         </Select>
-        <FormHelperText>Error</FormHelperText>
       </FormControl>
+      <hr />
     </>
   )
 }

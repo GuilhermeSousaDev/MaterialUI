@@ -7,6 +7,7 @@ import FloatingButtonComponent from './components/FloatingButton';
 import RadioButtonComponent from './components/RadioButton';
 import RatingComponent from './components/Rating';
 import SelectComponent from './components/Select';
+import SliderComponent from './components/Slider';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <RadioButtonComponent />
       <RatingComponent />
       <SelectComponent />
+      <SliderComponent />
     </Stack>
   )
 }
