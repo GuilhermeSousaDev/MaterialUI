@@ -28,6 +28,7 @@ export default function SliderComponent() {
 
   return (
     <>
+      <h4>Slider Component</h4>
       <Stack spacing={2} direction="row" sx={{ mb: 1 }}>
         <VolumeDown onClick={_ => setValue(prevState => prevState - 10)} />
         <Slider value={value} onChange={handleChange} />
@@ -36,6 +37,7 @@ export default function SliderComponent() {
       </Stack>
       <Slider disabled defaultValue={value} />
       <Slider color="secondary" defaultValue={20} step={10} marks={marks} />
+      <hr />
     </>
   )
 }

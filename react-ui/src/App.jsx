@@ -8,6 +8,7 @@ import RadioButtonComponent from './components/RadioButton';
 import RatingComponent from './components/Rating';
 import SelectComponent from './components/Select';
 import SliderComponent from './components/Slider';
+import SwitchComponent from './components/Switch';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <RatingComponent />
       <SelectComponent />
       <SliderComponent />
+      <SwitchComponent />
     </Stack>
   )
 }
