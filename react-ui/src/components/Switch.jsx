@@ -60,6 +60,7 @@ export default function SwitchComponent() {
         </FormControl>
         <MaterialUISwitch />
       </Stack>
+      <hr />
     </>
   )
 }

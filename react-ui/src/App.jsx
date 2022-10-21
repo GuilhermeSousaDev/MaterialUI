@@ -9,6 +9,7 @@ import RatingComponent from './components/Rating';
 import SelectComponent from './components/Select';
 import SliderComponent from './components/Slider';
 import SwitchComponent from './components/Switch';
+import TextFieldComponent from './components/TextField';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <SelectComponent />
       <SliderComponent />
       <SwitchComponent />
+      <TextFieldComponent />
     </Stack>
   )
 }
