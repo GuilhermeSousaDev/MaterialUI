@@ -46,6 +46,7 @@ export default function TextFieldComponent() {
           }}
         />
       </Stack>
+      <hr />
     </>
   )
 }

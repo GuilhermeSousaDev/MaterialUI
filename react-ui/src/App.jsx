@@ -10,6 +10,7 @@ import SelectComponent from './components/Select';
 import SliderComponent from './components/Slider';
 import SwitchComponent from './components/Switch';
 import TextFieldComponent from './components/TextField';
+import TransferListComponent from './components/TransferList';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <SliderComponent />
       <SwitchComponent />
       <TextFieldComponent />
+      <TransferListComponent />
     </Stack>
   )
 }
