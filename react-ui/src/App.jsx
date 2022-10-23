@@ -11,6 +11,7 @@ import SliderComponent from './components/Slider';
 import SwitchComponent from './components/Switch';
 import TextFieldComponent from './components/TextField';
 import TransferListComponent from './components/TransferList';
+import ToggleButtonComponent from './components/ToggleButton';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <SwitchComponent />
       <TextFieldComponent />
       <TransferListComponent />
+      <ToggleButtonComponent />
     </Stack>
   )
 }
