@@ -139,7 +139,6 @@ export default function TransferList() {
         </Grid>
       </Grid>
       <Grid item>{customList(right)}</Grid>
-      <hr />
     </Grid>
   );
 }

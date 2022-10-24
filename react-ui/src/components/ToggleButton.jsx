@@ -32,6 +32,7 @@ export default function ToggleButtonComponent() {
           <ArrowDropDown />
         </ToggleButton>
       </ToggleButtonGroup>
+      <hr />
     </>
   )
 }
