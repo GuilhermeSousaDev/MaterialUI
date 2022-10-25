@@ -13,6 +13,7 @@ import TextFieldComponent from './components/TextField';
 import TransferListComponent from './components/TransferList';
 import ToggleButtonComponent from './components/ToggleButton';
 import AvatarComponent from './components/Avatar';
+import BadgerComponent from './components/Badger';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
       <TransferListComponent />
       <ToggleButtonComponent />
       <AvatarComponent />
+      <BadgerComponent />
     </Stack>
   )
 }
