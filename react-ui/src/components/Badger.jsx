@@ -26,6 +26,7 @@ export default function BadgeComponent() {
           </Badge>
         </IconButton>
       </Stack>
+      <hr />
     </>
   )
 }

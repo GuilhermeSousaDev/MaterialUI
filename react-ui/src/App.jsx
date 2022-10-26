@@ -14,6 +14,7 @@ import TransferListComponent from './components/TransferList';
 import ToggleButtonComponent from './components/ToggleButton';
 import AvatarComponent from './components/Avatar';
 import BadgerComponent from './components/Badger';
+import ChipComponent from './components/Chip';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
       <ToggleButtonComponent />
       <AvatarComponent />
       <BadgerComponent />
+      <ChipComponent />
     </Stack>
   )
 }
