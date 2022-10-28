@@ -16,6 +16,7 @@ import AvatarComponent from './components/Avatar';
 import BadgerComponent from './components/Badger';
 import ChipComponent from './components/Chip';
 import DividerComponent from './components/Divider';
+import IconeComponent from './components/Icone';
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
       <BadgerComponent />
       <ChipComponent />
       <DividerComponent />
+      <IconeComponent />
     </Stack>
   )
 }

@@ -30,6 +30,7 @@ export default function DividerComponent() {
           <ListItemText primary="Photos" secondary="Jan 9, 2014" />
         </ListItem>
       </List>
+      <hr />
     </>
   )
 }
