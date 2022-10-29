@@ -1,6 +1,18 @@
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { Chip, Stack } from '@mui/material';
-import { Phone, Home } from '@mui/icons-material';
+import { Chip, Stack, IconButton } from '@mui/material';
+import {
+  Phone,
+  Home,
+  Battery20,
+  Battery30,
+  Battery50,
+  Battery60,
+  Battery80,
+  Battery90,
+  BatteryFull,
+  Cameraswitch,
+  KeyboardVoice
+} from '@mui/icons-material';
 
 export default function IconeComponent() {
   const theme = createTheme({
@@ -29,6 +41,19 @@ export default function IconeComponent() {
           <Chip icon={<Home />} label="Home" />
         </Stack>
       </ThemeProvider>
+      <h4>Material Icons + 2000 icons</h4>
+
+      <Stack direction="row" spacing={2}>
+        <Battery20 />
+        <Battery30 />
+        <Battery50 />
+        <Battery60 />
+        <Battery80 />
+        <Battery90 />
+        <BatteryFull />
+        <KeyboardVoice />
+        <IconButton color="primary"> <Cameraswitch /> </IconButton>
+      </Stack>
     </>
   )
 }
