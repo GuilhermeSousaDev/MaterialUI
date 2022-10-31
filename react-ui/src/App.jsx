@@ -18,6 +18,7 @@ import ChipComponent from './components/Chip';
 import DividerComponent from './components/Divider';
 import IconeComponent from './components/Icone';
 import ListComponent from './components/List';
+import TableComponent from './components/Table';
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
       <DividerComponent />
       <IconeComponent />
       <ListComponent />
+      <TableComponent />
     </Stack>
   )
 }
