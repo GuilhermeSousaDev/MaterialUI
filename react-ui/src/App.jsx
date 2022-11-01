@@ -19,6 +19,7 @@ import DividerComponent from './components/Divider';
 import IconeComponent from './components/Icone';
 import ListComponent from './components/List';
 import TableComponent from './components/Table';
+import TooltipComponent from './components/Tooltip';
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
       <IconeComponent />
       <ListComponent />
       <TableComponent />
+      <TooltipComponent />
     </Stack>
   )
 }

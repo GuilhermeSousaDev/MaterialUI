@@ -1,4 +1,4 @@
-import { Box } from '@mui/material';
+import * as React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 
 const columns = [
@@ -34,19 +34,17 @@ const rows = [
   { id: 9, lastName: 'Roxie', firstName: 'Harvey', age: 65 },
 ];
 
-export default function Table() {
+export default function TableComponent() {
   return (
-    <>
-      <h4>Table Component</h4>
-      <Box sx={{ height: 400, width: '100%' }}>
-       <DataGrid
+    <div style={{ height: 400, width: '100%' }}>
+      <h4>Table DataGrid Component</h4>
+      <DataGrid
         rows={rows}
-        colums={colums}
+        columns={columns}
         pageSize={5}
         rowsPerPageOptions={[5]}
         checkboxSelection
-       />
-      </Box>
-    </>
-  )
+      />
+    </div>
+  );
 }
