@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
+import { Divider } from '@mui/material';
 
 const columns = [
   { field: 'id', headerName: 'ID', width: 70 },
@@ -45,6 +46,7 @@ export default function TableComponent() {
         rowsPerPageOptions={[5]}
         checkboxSelection
       />
+      <Divider />
     </div>
   );
 }

@@ -20,9 +20,9 @@ import IconeComponent from './components/Icone';
 import ListComponent from './components/List';
 import TableComponent from './components/Table';
 import TooltipComponent from './components/Tooltip';
+import TypographyComponent from './components/Typography';
 
 function App() {
-
   return (
     <Stack sx={{ mt: 5, mb: 5 }}>
       <AutocompleteComponent />
@@ -46,6 +46,7 @@ function App() {
       <ListComponent />
       <TableComponent />
       <TooltipComponent />
+      <TypographyComponent />
     </Stack>
   )
 }

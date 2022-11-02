@@ -1,10 +1,10 @@
-import { Tooltip, IconButton, Stack, Zoom, Fade } from '@mui/material';
+import { Tooltip, IconButton, Stack, Zoom, Fade, Typography } from '@mui/material';
 import { Delete, Add } from '@mui/icons-material';
 
 export default function TooltipComponent() {
   return (
     <>
-      <h4>Tooltip Component</h4>
+      <Typography variant="h6" mt={9}>Tooltip Component</Typography>
       <Stack direction="row" spacing={2}>
         <Tooltip title="Delete" TransitionComponent={Fade} TransitionProps={{ timeout: 600 }}>
           <IconButton>
