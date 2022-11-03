@@ -21,6 +21,7 @@ import ListComponent from './components/List';
 import TableComponent from './components/Table';
 import TooltipComponent from './components/Tooltip';
 import TypographyComponent from './components/Typography';
+import AlertComponent from './components/Alert';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
       <TableComponent />
       <TooltipComponent />
       <TypographyComponent />
+      <AlertComponent />
     </Stack>
   )
 }
