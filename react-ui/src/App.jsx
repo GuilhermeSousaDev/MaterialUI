@@ -22,6 +22,7 @@ import TableComponent from './components/Table';
 import TooltipComponent from './components/Tooltip';
 import TypographyComponent from './components/Typography';
 import AlertComponent from './components/Alert';
+import BackdropComponent from './components/Backdrop';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
       <TooltipComponent />
       <TypographyComponent />
       <AlertComponent />
+      <BackdropComponent />
     </Stack>
   )
 }
