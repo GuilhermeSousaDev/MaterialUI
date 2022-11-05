@@ -23,6 +23,7 @@ import TooltipComponent from './components/Tooltip';
 import TypographyComponent from './components/Typography';
 import AlertComponent from './components/Alert';
 import BackdropComponent from './components/Backdrop';
+import DialogComponent from './components/Dialog';
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
       <TypographyComponent />
       <AlertComponent />
       <BackdropComponent />
+      <DialogComponent />
     </Stack>
   )
 }
