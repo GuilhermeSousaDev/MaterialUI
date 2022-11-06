@@ -24,6 +24,7 @@ import TypographyComponent from './components/Typography';
 import AlertComponent from './components/Alert';
 import BackdropComponent from './components/Backdrop';
 import DialogComponent from './components/Dialog';
+import ProgressComponent from './components/Progress';
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
       <AlertComponent />
       <BackdropComponent />
       <DialogComponent />
+      <ProgressComponent />
     </Stack>
   )
 }
