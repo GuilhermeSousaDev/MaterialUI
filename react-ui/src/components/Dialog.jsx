@@ -83,6 +83,7 @@ export default function DialogComponent() {
 
   return (
     <div>
+      <h4>Dialog Component</h4>
       <Typography variant="subtitle1" component="div">
         Selected: {selectedValue}
       </Typography>
