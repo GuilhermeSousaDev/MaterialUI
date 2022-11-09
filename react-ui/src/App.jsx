@@ -26,6 +26,8 @@ import BackdropComponent from './components/Backdrop';
 import DialogComponent from './components/Dialog';
 import ProgressComponent from './components/Progress';
 import SkeletonComponent from './components/Skeleton';
+import SnackbarComponent from './components/Snackbar';
+import AccordionComponent from './components/Accordion';
 
 function App() {
   return (
@@ -57,6 +59,8 @@ function App() {
       <DialogComponent />
       <ProgressComponent />
       <SkeletonComponent />
+      <SnackbarComponent />
+      <AccordionComponent />
     </Stack>
   )
 }
