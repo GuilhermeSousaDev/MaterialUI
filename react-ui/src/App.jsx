@@ -28,6 +28,7 @@ import ProgressComponent from './components/Progress';
 import SkeletonComponent from './components/Skeleton';
 import SnackbarComponent from './components/Snackbar';
 import AccordionComponent from './components/Accordion';
+import AppbarComponent from './components/Appbar';
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
       <SkeletonComponent />
       <SnackbarComponent />
       <AccordionComponent />
+      <AppbarComponent />
     </Stack>
   )
 }
