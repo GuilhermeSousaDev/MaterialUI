@@ -31,10 +31,11 @@ import AccordionComponent from './components/Accordion';
 import AppbarComponent from './components/Appbar';
 import CardComponent from './components/Card';
 import PaperComponent from './components/Paper';
+import BottomNavigationComponent from './components/BottomNavigation';
 
 function App() {
   return (
-    <Stack sx={{ mt: 5, mb: 5 }}>
+    <Stack spacing={3} alignItems="center" sx={{ mt: 5, mb: 5 }}>
       <AutocompleteComponent />
       <ButtonComponent />
       <ButtonGroupComponent />
@@ -67,6 +68,7 @@ function App() {
       <AppbarComponent />
       <CardComponent />
       <PaperComponent />
+      <BottomNavigationComponent />
     </Stack>
   )
 }
