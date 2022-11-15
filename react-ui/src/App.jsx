@@ -33,6 +33,7 @@ import CardComponent from './components/Card';
 import PaperComponent from './components/Paper';
 import BottomNavigationComponent from './components/BottomNavigation';
 import BreadcrumbsComponent from './components/Breadcrumbs';
+import DrawerComponent from './components/Drawer';
 
 function App() {
   return (
@@ -71,6 +72,7 @@ function App() {
       <PaperComponent />
       <BottomNavigationComponent />
       <BreadcrumbsComponent />
+      <DrawerComponent />
     </Stack>
   )
 }
