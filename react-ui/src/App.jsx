@@ -35,6 +35,7 @@ import BottomNavigationComponent from './components/BottomNavigation';
 import BreadcrumbsComponent from './components/Breadcrumbs';
 import DrawerComponent from './components/Drawer';
 import LinkComponent from './components/Link';
+import MenuComponent from './components/Menu';
 
 function App() {
   return (
@@ -75,6 +76,7 @@ function App() {
       <BreadcrumbsComponent />
       <DrawerComponent />
       <LinkComponent />
+      <MenuComponent />
     </Stack>
   )
 }
