@@ -36,6 +36,7 @@ import BreadcrumbsComponent from './components/Breadcrumbs';
 import DrawerComponent from './components/Drawer';
 import LinkComponent from './components/Link';
 import MenuComponent from './components/Menu';
+import PaginationComponent from './components/Pagination';
 
 function App() {
   return (
@@ -77,6 +78,7 @@ function App() {
       <DrawerComponent />
       <LinkComponent />
       <MenuComponent />
+      <PaginationComponent />
     </Stack>
   )
 }
