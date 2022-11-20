@@ -38,6 +38,7 @@ import LinkComponent from './components/Link';
 import MenuComponent from './components/Menu';
 import PaginationComponent from './components/Pagination';
 import SpeedDialComponent from './components/SpeedDial';
+import StepperComponent from './components/Stepper';
 
 function App() {
   return (
@@ -81,6 +82,7 @@ function App() {
       <MenuComponent />
       <PaginationComponent />
       <SpeedDialComponent />
+      <StepperComponent />
     </Stack>
   )
 }
