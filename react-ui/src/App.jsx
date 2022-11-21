@@ -39,6 +39,7 @@ import MenuComponent from './components/Menu';
 import PaginationComponent from './components/Pagination';
 import SpeedDialComponent from './components/SpeedDial';
 import StepperComponent from './components/Stepper';
+import TabsComponent from './components/Tabs';
 
 function App() {
   return (
@@ -83,6 +84,7 @@ function App() {
       <PaginationComponent />
       <SpeedDialComponent />
       <StepperComponent />
+      <TabsComponent />
     </Stack>
   )
 }
