@@ -41,6 +41,7 @@ import SpeedDialComponent from './components/SpeedDial';
 import StepperComponent from './components/Stepper';
 import TabsComponent from './components/Tabs';
 import BoxComponent from './components/Box';
+import ContainerComponent from './components/Container';
 
 function App() {
   return (
@@ -87,6 +88,7 @@ function App() {
       <StepperComponent />
       <TabsComponent />
       <BoxComponent />
+      <ContainerComponent />
     </Stack>
   )
 }
