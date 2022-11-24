@@ -42,6 +42,7 @@ import StepperComponent from './components/Stepper';
 import TabsComponent from './components/Tabs';
 import BoxComponent from './components/Box';
 import ContainerComponent from './components/Container';
+import GridComponent from './components/Grid';
 
 function App() {
   return (
@@ -89,6 +90,7 @@ function App() {
       <TabsComponent />
       <BoxComponent />
       <ContainerComponent />
+      <GridComponent />
     </Stack>
   )
 }
