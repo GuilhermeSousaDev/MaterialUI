@@ -43,6 +43,7 @@ import TabsComponent from './components/Tabs';
 import BoxComponent from './components/Box';
 import ContainerComponent from './components/Container';
 import GridComponent from './components/Grid';
+import StackComponent from './components/Stack';
 
 function App() {
   return (
@@ -91,6 +92,7 @@ function App() {
       <BoxComponent />
       <ContainerComponent />
       <GridComponent />
+      <StackComponent />
     </Stack>
   )
 }
