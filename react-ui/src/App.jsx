@@ -44,6 +44,7 @@ import BoxComponent from './components/Box';
 import ContainerComponent from './components/Container';
 import GridComponent from './components/Grid';
 import StackComponent from './components/Stack';
+import ImageListComponent from './components/ImageList';
 
 function App() {
   return (
@@ -93,6 +94,7 @@ function App() {
       <ContainerComponent />
       <GridComponent />
       <StackComponent />
+      <ImageListComponent />
     </Stack>
   )
 }
