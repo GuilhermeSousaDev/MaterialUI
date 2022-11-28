@@ -1,3 +1,4 @@
+import { CssBaseline } from '@mui/material';
 import { Stack } from '@mui/material';
 import AutocompleteComponent from './components/Autocomplete';
 import ButtonComponent from './components/Button';
@@ -50,6 +51,7 @@ import ClickAwayComponent from './components/ClickAway';
 function App() {
   return (
     <Stack spacing={3} alignItems="center" sx={{ mt: 5, mb: 5 }}>
+      <CssBaseline />
       <AutocompleteComponent />
       <ButtonComponent />
       <ButtonGroupComponent />
