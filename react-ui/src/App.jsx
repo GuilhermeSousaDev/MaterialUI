@@ -45,6 +45,7 @@ import ContainerComponent from './components/Container';
 import GridComponent from './components/Grid';
 import StackComponent from './components/Stack';
 import ImageListComponent from './components/ImageList';
+import ClickAwayComponent from './components/ClickAway';
 
 function App() {
   return (
@@ -95,6 +96,7 @@ function App() {
       <GridComponent />
       <StackComponent />
       <ImageListComponent />
+      <ClickAwayComponent />
     </Stack>
   )
 }
