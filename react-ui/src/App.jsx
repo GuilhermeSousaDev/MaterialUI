@@ -47,6 +47,7 @@ import GridComponent from './components/Grid';
 import StackComponent from './components/Stack';
 import ImageListComponent from './components/ImageList';
 import ClickAwayComponent from './components/ClickAway';
+import ModalComponent from './components/Modal';
 
 function App() {
   return (
@@ -99,6 +100,7 @@ function App() {
       <StackComponent />
       <ImageListComponent />
       <ClickAwayComponent />
+      <ModalComponent />
     </Stack>
   )
 }
