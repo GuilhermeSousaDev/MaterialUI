@@ -48,6 +48,7 @@ import StackComponent from './components/Stack';
 import ImageListComponent from './components/ImageList';
 import ClickAwayComponent from './components/ClickAway';
 import ModalComponent from './components/Modal';
+import NoSsrComponent from './components/NoSsr';
 
 function App() {
   return (
@@ -101,6 +102,7 @@ function App() {
       <ImageListComponent />
       <ClickAwayComponent />
       <ModalComponent />
+      <NoSsrComponent />
     </Stack>
   )
 }
