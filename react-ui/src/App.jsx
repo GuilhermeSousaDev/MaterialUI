@@ -49,6 +49,7 @@ import ImageListComponent from './components/ImageList';
 import ClickAwayComponent from './components/ClickAway';
 import ModalComponent from './components/Modal';
 import NoSsrComponent from './components/NoSsr';
+import PopoverComponent from './components/Popover';
 
 function App() {
   return (
@@ -103,6 +104,7 @@ function App() {
       <ClickAwayComponent />
       <ModalComponent />
       <NoSsrComponent />
+      <PopoverComponent />
     </Stack>
   )
 }
