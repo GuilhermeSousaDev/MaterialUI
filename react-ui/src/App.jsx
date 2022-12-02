@@ -50,6 +50,7 @@ import ClickAwayComponent from './components/ClickAway';
 import ModalComponent from './components/Modal';
 import NoSsrComponent from './components/NoSsr';
 import PopoverComponent from './components/Popover';
+import PopperComponent from './components/Popper';
 
 function App() {
   return (
@@ -105,6 +106,7 @@ function App() {
       <ModalComponent />
       <NoSsrComponent />
       <PopoverComponent />
+      <PopperComponent />
     </Stack>
   )
 }
