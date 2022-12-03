@@ -51,6 +51,7 @@ import ModalComponent from './components/Modal';
 import NoSsrComponent from './components/NoSsr';
 import PopoverComponent from './components/Popover';
 import PopperComponent from './components/Popper';
+import PortalComponent from './components/Portal';
 
 function App() {
   return (
@@ -107,6 +108,7 @@ function App() {
       <NoSsrComponent />
       <PopoverComponent />
       <PopperComponent />
+      <PortalComponent />
     </Stack>
   )
 }
