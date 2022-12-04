@@ -52,6 +52,7 @@ import NoSsrComponent from './components/NoSsr';
 import PopoverComponent from './components/Popover';
 import PopperComponent from './components/Popper';
 import PortalComponent from './components/Portal';
+import TextAreaAutoSizeComponent from './components/TextareaAutoSize';
 
 function App() {
   return (
@@ -109,6 +110,7 @@ function App() {
       <PopoverComponent />
       <PopperComponent />
       <PortalComponent />
+      <TextAreaAutoSizeComponent />
     </Stack>
   )
 }
