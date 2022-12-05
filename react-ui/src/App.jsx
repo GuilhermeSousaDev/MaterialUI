@@ -53,6 +53,7 @@ import PopoverComponent from './components/Popover';
 import PopperComponent from './components/Popper';
 import PortalComponent from './components/Portal';
 import TextAreaAutoSizeComponent from './components/TextareaAutoSize';
+import TransitionComponent from './components/Transitions';
 
 function App() {
   return (
@@ -111,6 +112,7 @@ function App() {
       <PopperComponent />
       <PortalComponent />
       <TextAreaAutoSizeComponent />
+      <TransitionComponent />
     </Stack>
   )
 }
