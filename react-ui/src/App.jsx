@@ -54,6 +54,7 @@ import PopperComponent from './components/Popper';
 import PortalComponent from './components/Portal';
 import TextAreaAutoSizeComponent from './components/TextareaAutoSize';
 import TransitionComponent from './components/Transitions';
+import MediaQueryComponent from './components/MediaQuery';
 
 function App() {
   return (
@@ -113,6 +114,7 @@ function App() {
       <PortalComponent />
       <TextAreaAutoSizeComponent />
       <TransitionComponent />
+      <MediaQueryComponent />
     </Stack>
   )
 }
