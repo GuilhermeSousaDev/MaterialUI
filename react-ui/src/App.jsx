@@ -55,6 +55,7 @@ import PortalComponent from './components/Portal';
 import TextAreaAutoSizeComponent from './components/TextareaAutoSize';
 import TransitionComponent from './components/Transitions';
 import MediaQueryComponent from './components/MediaQuery';
+import ThemingComponent from './components/Theming';
 
 function App() {
   return (
@@ -115,6 +116,7 @@ function App() {
       <TextAreaAutoSizeComponent />
       <TransitionComponent />
       <MediaQueryComponent />
+      <ThemingComponent />
     </Stack>
   )
 }
