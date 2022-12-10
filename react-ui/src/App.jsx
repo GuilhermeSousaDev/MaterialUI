@@ -58,6 +58,7 @@ import MediaQueryComponent from './components/MediaQuery';
 import ThemingComponent from './components/Theming';
 import PaletteComponent from './components/Palette';
 import DarkModeComponent from './components/DarkMode';
+import TypographyThemeComponent from './components/TypographyTheme';
 
 function App() {
   return (
@@ -121,6 +122,7 @@ function App() {
       <ThemingComponent />
       <PaletteComponent />
       <DarkModeComponent />
+      <TypographyThemeComponent />
     </Stack>
   )
 }
