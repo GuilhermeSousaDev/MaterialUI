@@ -59,6 +59,8 @@ import ThemingComponent from './components/Theming';
 import PaletteComponent from './components/Palette';
 import DarkModeComponent from './components/DarkMode';
 import TypographyThemeComponent from './components/TypographyTheme';
+import SpacingThemeComponent from './components/Spacing';
+import BreakPointsThemeComponent from './components/BreakPoints';
 
 function App() {
   return (
@@ -123,6 +125,8 @@ function App() {
       <PaletteComponent />
       <DarkModeComponent />
       <TypographyThemeComponent />
+      <SpacingThemeComponent />
+      <BreakPointsThemeComponent />
     </Stack>
   )
 }
