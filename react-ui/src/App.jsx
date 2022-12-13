@@ -61,6 +61,7 @@ import DarkModeComponent from './components/DarkMode';
 import TypographyThemeComponent from './components/TypographyTheme';
 import SpacingThemeComponent from './components/Spacing';
 import BreakPointsThemeComponent from './components/BreakPoints';
+import CustomComponentsComponent from './components/CustomComponents';
 
 function App() {
   return (
@@ -127,6 +128,7 @@ function App() {
       <TypographyThemeComponent />
       <SpacingThemeComponent />
       <BreakPointsThemeComponent />
+      <CustomComponentsComponent />
     </Stack>
   )
 }
