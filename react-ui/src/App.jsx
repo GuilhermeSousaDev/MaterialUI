@@ -62,6 +62,7 @@ import TypographyThemeComponent from './components/TypographyTheme';
 import SpacingThemeComponent from './components/Spacing';
 import BreakPointsThemeComponent from './components/BreakPoints';
 import CustomComponentsComponent from './components/CustomComponents';
+import CustomizeComponent from './components/Customize';
 
 function App() {
   return (
@@ -129,6 +130,7 @@ function App() {
       <SpacingThemeComponent />
       <BreakPointsThemeComponent />
       <CustomComponentsComponent />
+      <CustomizeComponent />
     </Stack>
   )
 }
