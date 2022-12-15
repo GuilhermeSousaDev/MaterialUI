@@ -63,6 +63,7 @@ import SpacingThemeComponent from './components/Spacing';
 import BreakPointsThemeComponent from './components/BreakPoints';
 import CustomComponentsComponent from './components/CustomComponents';
 import CustomizeComponent from './components/Customize';
+import ColorThemeComponent from './components/Color';
 
 function App() {
   return (
@@ -131,6 +132,7 @@ function App() {
       <BreakPointsThemeComponent />
       <CustomComponentsComponent />
       <CustomizeComponent />
+      <ColorThemeComponent />
     </Stack>
   )
 }
